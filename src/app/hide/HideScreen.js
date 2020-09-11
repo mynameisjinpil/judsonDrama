@@ -430,7 +430,7 @@ class HideScreen extends React.Component {
         console.log(res);
         this.send(navigation);
       })
-      .catch(err => console.log('[IMAGE UPLOAD ERR]', err));
+      .catch(err => console.log('[IMAGE UPLOAD ERR]', err.message));
   };
 
   componentDidMount() {

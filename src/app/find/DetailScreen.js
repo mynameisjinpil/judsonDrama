@@ -107,7 +107,7 @@ const styles = StyleSheet.constructor({
     marginLeft: 10,
   },
   title: {
-    color: 'rgba(0, 0, 0, 1.0)',
+    color: 'rgba(255, 255, 255, 1.0)',
     fontSize: 35,
     fontWeight: 'bold',
     marginLeft: 10,

@@ -89,7 +89,7 @@ function ProfileScreen({navigation}) {
       <View style={styles.menuItemContainer}>
         <View style={{...styles.menu, ...styles.logOut}}>
           <Button
-            style={styles.menuText}
+            style={{...styles.menuText}}
             title={'로그아웃'}
             color={'red'}
             onPress={() => {
@@ -158,8 +158,7 @@ const styles = StyleSheet.create({
   logOut: {
     height: '100%',
     justifyContent: 'center',
-    marginHorizontal: 0,
-    width: '100%',
+    marginHorizontal: 10,
     backgroundColor: 'rgba(250, 250, 250, 1.0)',
     borderTopWidth: 0.1,
     borderBottomWidth: 0.1,

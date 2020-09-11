@@ -126,7 +126,6 @@ class HideScreen extends React.Component {
     };
   }
 
-
   getUserToken = async () => {
     const userToken = await AsyncStorage.getItem('userToken', (err, value) => {
       if (err) {
@@ -184,14 +183,13 @@ class HideScreen extends React.Component {
     };
 
     const showMap = () => {
-      return this.navigation.navigate('위치선택', {
+      return this.navigation.navigate('위치수정', {
         onReturn: (address, selected) => {
           console.log('return');
           this.setState({address: address, location: selected});
         },
       });
     };
-
     return (
       <TouchableOpacity
         style={styles.inputButtonContainer}

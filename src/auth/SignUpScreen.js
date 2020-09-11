@@ -57,7 +57,7 @@ function SignUpScreen({navigation}) {
       validate = true;
     } else {
       setIsValidate(false);
-      setMessage('이메 양식이 다릅니다.');
+      setMessage('이메일 양식이 다릅니다.');
     }
 
     return validate;

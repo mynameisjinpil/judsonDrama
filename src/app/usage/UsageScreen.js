@@ -18,12 +18,12 @@ function UsageScreen({navigation}) {
           </View>
           <Text style={styles.text}>공연장을 찾는다.</Text>
           <Text style={styles.blank}> </Text>
-          <Text style={styles.text}>2 공연 제안하는 독특한 방식으로 공연을 감상한다.</Text>
+          <Text style={styles.text}>2 공연이 제안하는 독특한 방식으로 공연을 감상한다.</Text>
           <Text style={styles.blank}> </Text>
           <Text style={styles.text}>3 공연장을 찾은 날짜와 회원 닉네임을 종이 로그북에 기록하고, 앱 상에도 기록한다.</Text>
           <Text style={styles.description}>(*못 찾았을 경우에도 기록을 남기면 다른 관객에게 도움이 됩니다.)</Text>
           <Text style={styles.blank}> </Text>
-          <Text style={styles.text}>4 보물과 로그북을 다시 보물함에 넣어 원래 자리에 숨긴다.</Text>
+          <Text style={styles.text}>4 공연과 로그북을 다시 용기에 넣어 원래 자리에 숨긴다.</Text>
           <Text style={styles.blank}> </Text>
           <Text style={styles.blank}> </Text>
           <View style={styles.rowContainer}>
@@ -41,20 +41,18 @@ function UsageScreen({navigation}) {
             <Text style={styles.text}> 인스타그램 계정</Text>
           </View>
           <Text style={styles.text}>(@judson_drama)에서 로그북과 스티커를 다운로드받거나, judsondrama@gmail.com 으로 요청해서 인쇄한 후 용기에 부착한다.</Text>
-          <Text style={styles.sub_title}> </Text>
           <Text style={styles.blank}> </Text>
           <Text style={styles.text}>4. 용기 속에 준비한 공연과 찾은 로그북을 함께 넣는다.</Text>
           <Text style={styles.blank}> </Text>
-          <Text style={styles.text}>5. 용기 겉면에 스티커를 붙인다.</Text>
-          <Text style={styles.blank}> </Text>
-          <Text style={styles.text}>6. 행인에 의해 쉽게 파괴 또는 유기되지 않을 서울 어느 장소에 잘 숨긴다.</Text>
+          <Text style={styles.text}>5. 행인에 의해 쉽게 파괴 또는 유기되지 않을 서울 어느 장소에 잘 숨긴다.</Text>
           <Text style={styles.blank}> </Text>
           <View style={{flexDirection: 'row', width: '100%'}}>
-            <Text style={styles.text}>7. </Text>
+            <Text style={styles.text}>6. </Text>
             <Text style={{...styles.text, ...styles.throughLineText}}>저드슨 드라마</Text>
             <Text style={styles.text}>앱 상의 '숨기기 ' 페이지에 숨긴 </Text>
           </View>
           <Text style={styles.text}>공연의 정보와 위치, 힌트를 올린다. </Text>
+          <Text style={styles.blank}> </Text>
           <Text style={styles.blank}> </Text>
           <View style={styles.rowContainer}>
             <Image style={{width: 40, height: 40}} source={require('../../../asset/80.png')}></Image>

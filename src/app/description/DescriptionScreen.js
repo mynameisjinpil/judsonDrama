@@ -6,15 +6,11 @@ function DescriptionScreen({navigation}) {
     <SafeAreaView style={styles.container}>
       <ScrollView style={styles.scrollView}>
         <View style={styles.textContainer}>
-          <Text style={{...styles.text, ...styles.throughLineText}}>저드슨 드라마</Text>
-          <Text style={styles.sub_title}> </Text>
-          <Text style={styles.sub_title}>숨은 공연 찾기</Text>
-          <Text style={styles.text}> </Text>
           <Text style={styles.text}> </Text>
           <Text style={styles.text}> </Text>
           <View style={{flexDirection: 'row'}}>
             <Text style={{...styles.text, ...styles.throughLineText}}>저드슨 드라마</Text>
-            <Text style={styles.text}>에 오신걸 환영합니다.</Text>
+            <Text style={styles.text}>에 오신 걸 환영합니다.</Text>
           </View>
           <Text style={styles.text}> </Text>
           <Text style={styles.text}>
@@ -23,8 +19,8 @@ function DescriptionScreen({navigation}) {
           </Text>
           <Text style={styles.text}> </Text>
           <Text style={styles.text}>
-            지름 4cm 에서 15cm에 이르는 이 작은 공연장에서는 2020년 서울, 비대면
-            시대의 새로운 대면에 대해 고민하며 지난 6개월여 간 함께 작업해온
+            4cm에서 15cm에 이르는 이 작은 공연장에서는 2020년 서울, 비대면
+            시대의 새로운 대면에 대해 고민하며 지난 6개월여간 함께 작업해온
             다양한 장르의 예술가들의 작업들이 숨겨져 있습니다.
           </Text>
           <Text style={styles.text}> </Text>
@@ -35,7 +31,7 @@ function DescriptionScreen({navigation}) {
             <Text style={styles.text}>
               기획을 포기/취소하는 것으로
             </Text>
-            <Text style={{...styles.text, ...styles.throughLineText}}>저드슨 드라마</Text>
+            <Text style={{...styles.text, ...styles.throughLineText}}> 저드슨 드라마</Text>
           </View>
           <Text style={styles.text}>
             콜렉티브는 '미묘한 공동창작의 감각'이라는 연약한 나침반을 가지고 낯설고 새로운 여정에 기꺼이 뛰어들었습니다.
@@ -95,7 +91,7 @@ function DescriptionScreen({navigation}) {
           <Text style={styles.text}> </Text>
           <Text style={styles.text}>
             김진호, 김혜나, 문예지, 문화공간 예술텃밭, 박슬기, 손경옥, 안애순,
-            이세림, 이재민, 이정주, 이주현, 장석, 조아오 마틴스, 코스타 공유공간,
+            이세린, 이재민, 이정주, 이주현, 장석, 조아오 마틴스, 코스타 공유공간,
             한승우, 홍성민
           </Text>
           <Text style={styles.text}> </Text>
